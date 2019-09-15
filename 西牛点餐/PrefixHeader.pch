@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  西牛点餐
+//
+//  Created by 叶凡 on 2019/8/5.
+//  Copyright © 2019 yefan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define rgba(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define VCSelfWidth ([[UIScreen mainScreen] bounds].size.width)
+#define VCSelfHeight ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#import "NSObject+Property.h"
+#import "UIImageView+WebCache.h"
+#import "JXTAlertManagerHeader.h"
+#import "MBProgressHUD.h"
+#import "LCProgressHUD.h"
+#import "CategoryModel.h"
+#endif /* PrefixHeader_pch */
